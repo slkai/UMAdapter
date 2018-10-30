@@ -14,7 +14,7 @@ open class SwiftFile: NSObject {
         super.init()
     }
     
-    public func test() {
+    @objc public func test() {
         UMConfigure.umidString()
     }
 }
