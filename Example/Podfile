@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UMAdapter_Example' do
+  pod 'UMAdapter', :path => '../'
+
+  target 'UMAdapter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
