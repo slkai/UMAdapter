@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UMCommon
 
 class SwifeFile {
     
