@@ -7,13 +7,17 @@
 //
 
 import UIKit
-import UMAdapter
+//import UMAdapter
+import UMCommon
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        SwiftFile().test()
+//        SwiftFile().test()
+        UMConfigure.umidString()
     }
 }
+
+
 
