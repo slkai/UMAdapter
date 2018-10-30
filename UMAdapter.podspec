@@ -17,7 +17,7 @@ TODO: Add long description of the pod here.
   s.static_framework = true
 
   s.pod_target_xcconfig = {
-    'SWIFT_INCLUDE_PATHS' => '/Users/Alan/Desktop/project/UMAdapter/UMAdapter/Classes',
+    'SWIFT_INCLUDE_PATHS' => ['$(PODS_ROOT)/UMAdapter/UMAdapter/Classes', '$(PODS_ROOT)/../../UMAdapter/Classes']
   }
 
 
