@@ -8,10 +8,12 @@
 
 #import "Test.h"
 
+#import <UMAdapter/UMAdapter-Swift.h>
+
 @implementation Test
     
 -(void)test {
-
+    [[[SwiftFile alloc] init] test];
 }
 
 @end
