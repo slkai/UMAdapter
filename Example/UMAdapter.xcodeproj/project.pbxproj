@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		AC14CBD7EFFF48101126E2FA /* Pods_UMAdapter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D95C41FA55028DA99D71D53 /* Pods_UMAdapter_Tests.framework */; };
+		E711EC0421883263001EF9C6 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = E711EC0321883263001EF9C6 /* Test.m */; };
 		F6B78605912F26245AADF77B /* Pods_UMAdapter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAA13DE51B63854E130C27D /* Pods_UMAdapter_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,9 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C9D3A50AB4E5E0AECD48F8B /* UMAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UMAdapter.podspec; path = ../UMAdapter.podspec; sourceTree = "<group>"; };
+		0C9D3A50AB4E5E0AECD48F8B /* UMAdapter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UMAdapter.podspec; path = ../UMAdapter.podspec; sourceTree = "<group>"; };
 		24DEB136CCADBD1FA9AC1F57 /* Pods-UMAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMAdapter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UMAdapter_Tests/Pods-UMAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		30B156454792857E7F261EB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		30B156454792857E7F261EB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* UMAdapter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMAdapter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +43,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6D95C41FA55028DA99D71D53 /* Pods_UMAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMAdapter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B7E5A284800F8E39D07C180 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8B7E5A284800F8E39D07C180 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ADAFA9F6357385D9F96FAE74 /* Pods-UMAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMAdapter_Example.release.xcconfig"; path = "Target Support Files/Pods-UMAdapter_Example/Pods-UMAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D43DAEEED7763430F8629A06 /* Pods-UMAdapter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMAdapter_Tests.release.xcconfig"; path = "Target Support Files/Pods-UMAdapter_Tests/Pods-UMAdapter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DBAA13DE51B63854E130C27D /* Pods_UMAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMAdapter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E711EC0121883262001EF9C6 /* UMAdapter_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMAdapter_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		E711EC0221883263001EF9C6 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		E711EC0321883263001EF9C6 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		F6D86F029EF78C93F9F6FDA8 /* Pods-UMAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMAdapter_Example.debug.xcconfig"; path = "Target Support Files/Pods-UMAdapter_Example/Pods-UMAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +81,6 @@
 				24DEB136CCADBD1FA9AC1F57 /* Pods-UMAdapter_Tests.debug.xcconfig */,
 				D43DAEEED7763430F8629A06 /* Pods-UMAdapter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -120,6 +123,9 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				E711EC0221883263001EF9C6 /* Test.h */,
+				E711EC0321883263001EF9C6 /* Test.m */,
+				E711EC0121883262001EF9C6 /* UMAdapter_Example-Bridging-Header.h */,
 			);
 			name = "Example for UMAdapter";
 			path = UMAdapter;
@@ -212,7 +218,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 0940;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -266,15 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-UMAdapter_Tests-checkManifestLockResult.txt",
 			);
@@ -288,15 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-UMAdapter_Example-checkManifestLockResult.txt",
 			);
@@ -312,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E711EC0421883263001EF9C6 /* Test.m in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -459,11 +458,14 @@
 			baseConfigurationReference = F6D86F029EF78C93F9F6FDA8 /* Pods-UMAdapter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = UMAdapter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UMAdapter/UMAdapter_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -474,11 +476,13 @@
 			baseConfigurationReference = ADAFA9F6357385D9F96FAE74 /* Pods-UMAdapter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = UMAdapter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UMAdapter/UMAdapter_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

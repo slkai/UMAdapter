@@ -8,9 +8,13 @@
 import Foundation
 import UMCommon
 
-class SwifeFile {
+open class SwiftFile: NSObject {
     
-    func test() {
+    public override init() {
+        super.init()
+    }
+    
+    public func test() {
         UMConfigure.umidString()
     }
 }
