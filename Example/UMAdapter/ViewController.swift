@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         SwiftFile().test()
+        OCFile().test()
         UMConfigure.umidString()
     }
 }
