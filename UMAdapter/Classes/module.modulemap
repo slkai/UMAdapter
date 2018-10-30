@@ -1,5 +1,5 @@
 module UMCommon {
-    header "/Users/Alan/Desktop/project/UMAdapter/Example/Pods/UMCCommon/UMCommon.framework/Versions/A/Headers/UMCommon.h"
+//    header "/Users/Alan/Desktop/project/UMAdapter/Example/Pods/UMCCommon/UMCommon.framework/Versions/A/Headers/UMCommon.h"    // 绝对路径
+    header "../../Example/Pods/UMCCommon/UMCommon.framework/Versions/A/Headers/UMCommon.h" // debug项目路径
     export *
 }
-
