@@ -1,0 +1,16 @@
+PODS:
+  - UMAdapter (0.1.0)
+
+DEPENDENCIES:
+  - UMAdapter (from `../`)
+
+EXTERNAL SOURCES:
+  UMAdapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UMAdapter: b8a3de9b02afef10abbe131e1bc47d0d7c4d3d65
+
+PODFILE CHECKSUM: 610ccb13db1804fb1cfbad45c0d8f67caff74b36
+
+COCOAPODS: 1.6.0.beta.2
