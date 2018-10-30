@@ -14,4 +14,5 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   s.source_files = 'UMAdapter/Classes/**/*'
   s.dependency 'UMCCommon'
+  s.static_framework = true
 end
