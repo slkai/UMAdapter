@@ -9,12 +9,14 @@
 #import "Test.h"
 
 #import <UMAdapter/UMAdapter-Swift.h>
+#import <UMAdapter-umbrella.h>
 #import <UMCommon/UMCommon.h>
 
 @implementation Test
     
 -(void)test {
     [[[SwiftFile alloc] init] test];
+    [[[OCFile alloc] init] test];
     [UMConfigure umidString];
 }
 
