@@ -11,6 +11,6 @@ import UMCommon
 class SwifeFile {
     
     func test() {
-        
+        UMConfigure.umidString()
     }
 }

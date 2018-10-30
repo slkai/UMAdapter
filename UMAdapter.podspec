@@ -15,4 +15,10 @@ TODO: Add long description of the pod here.
   s.source_files = 'UMAdapter/Classes/**/*'
   s.dependency 'UMCCommon'
   s.static_framework = true
+
+  s.pod_target_xcconfig = {
+    'SWIFT_INCLUDE_PATHS' => '/Users/Alan/Desktop/project/UMAdapter/UMAdapter/Classes',
+  }
+
+
 end
