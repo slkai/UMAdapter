@@ -14,9 +14,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        SwiftFile().test()
-        OCFile().test()
-        UMConfigure.umidString()
+        SwiftFile().test()          // project's Swift file call framework's Swift file
+        OCFile().test()             // project's Swift file call framework's Objective-C file
+        UMConfigure.umidString()    // project's Swift file call vendor's Objective-C file
     }
 }
 
