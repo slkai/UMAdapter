@@ -18,3 +18,7 @@ open class SwiftFile: NSObject {
         UMConfigure.umidString()
     }
 }
+
+public class SwiftConfigure: UMConfigure {
+    
+}
